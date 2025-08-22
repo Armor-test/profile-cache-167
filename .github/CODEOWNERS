@@ -1,0 +1,38 @@
+# CODEOWNERS file for profile-cache-167
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-mobile @Armor-test/unit-design @Armor-test/dept-security
+
+# Directory ownership
+/components/ @Armor-test/dept-security @Armor-test/grp-payments @Armor-test/dept-reporting
+/vendor/ @Armor-test/squad-frontend @Armor-test/squad-performance
+/db/ @Armor-test/dept-automation @Armor-test/squad-performance
+/api/ @Armor-test/dept-reliability @Armor-test/dept-reporting
+/ui/ @Armor-test/dept-test @Armor-test/squad-ml @Armor-test/unit-devops
+/security/ @Armor-test/squad-database @Armor-test/team-research @Armor-test/dept-billing
+/build/ @Armor-test/squad-qa @Armor-test/team-core @Armor-test/dept-test
+/app/ @Armor-test/squad-search @Armor-test/squad-cache
+/data/ @Armor-test/team-logging @Armor-test/squad-cache @Armor-test/unit-governance
+/tests/ @Armor-test/dept-reporting @Armor-test/team-research @Armor-test/dept-identity
+/public/ @Armor-test/squad-database @Armor-test/team-research
+/src/ @Armor-test/squad-reporting @Armor-test/team-security @Armor-test/squad-ux
+
+# File type ownership
+*.tf @Armor-test/squad-frontend @Armor-test/squad-ml
+*.sh @Armor-test/dept-billing @Armor-test/grp-api
+*.php @Armor-test/grp-ui @Armor-test/dept-data
+*.md @Armor-test/squad-frontend @Armor-test/squad-qa @Armor-test/squad-tooling
+*.sql @Armor-test/team-core @Armor-test/unit-devops
+*.css @Armor-test/unit-cloud @Armor-test/squad-mobile @Armor-test/squad-search
+*.cs @Armor-test/squad-api @Armor-test/dept-reliability
+*.xml @Armor-test/dept-notifications @Armor-test/squad-product
+*.ts @Armor-test/grp-payments @Armor-test/team-reporting
+*.c @Armor-test/team-security @Armor-test/grp-payments @Armor-test/squad-product
+*.properties @Armor-test/squad-search @Armor-test/team-frontend
+*.kt @Armor-test/dept-notifications @Armor-test/squad-ux
+*.yml @Armor-test/squad-mobile @Armor-test/team-reporting
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
